@@ -8,8 +8,8 @@ export const getMahasiswaHandler = async (req: Request, res: Response) => {
     const data = await getMahasiswa(nama as string);
 
     return res.status(200).json({
-        message: "Berhasil mengambil data mahasiswa",
-        data,
+      message: "Berhasil mengambil data mahasiswa",
+      data,
     });
   } catch (error) {
     console.error(error);
