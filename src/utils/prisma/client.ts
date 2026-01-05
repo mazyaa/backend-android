@@ -1,6 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { PrismaPg } from '@prisma/adapter-pg';
-import { DATABASE_URL } from './env';
+import { DATABASE_URL } from '../env';
 
 const connectionString = DATABASE_URL;
 
