@@ -4,7 +4,7 @@ async function main() {
   await prisma.mahasiswa.deleteMany();
 
   const data = [
-    { nama: "Andi Saputra", nim: "2021001", jurusan: "Informatika" },
+    { nama: "Muhamad Azi Sudarya", nim: "1102221014", jurusan: "Teknik Informatika" },
     { nama: "Budi Santoso", nim: "2021002", jurusan: "Sistem Informasi" },
     { nama: "Citra Lestari", nim: "2021003", jurusan: "Teknik Komputer" },
     { nama: "Dewi Anggraini", nim: "2021004", jurusan: "Informatika" },
