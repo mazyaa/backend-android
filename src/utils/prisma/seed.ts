@@ -62,7 +62,7 @@ async function main() {
 
   await prisma.mahasiswa.createMany({ data });
 
-  console.log("✅ 50 data mahasiswa berhasil di-seed");
+  console.log(`Seeded ${data.length} mahasiswa records.`);
 }
 
 main()
